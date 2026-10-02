@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T06:22:37.392Z",
+  "generatedAt": "2026-10-02T08:08:36.379Z",
   "edition": "community-source",
   "files": [
     {
@@ -15,13 +15,68 @@
     },
     {
       "path": "README.en.md",
-      "size": 12632,
-      "sha256": "0631378eb0068cf9044797fd4bac92d83b0a222af664f7a881572d74802787d7"
+      "size": 12987,
+      "sha256": "50c1c532160c495b89c4421a95d8f9340fd797ac3d5b0f9dda941bebc8427edc"
+    },
+    {
+      "path": "README.es.md",
+      "size": 9228,
+      "sha256": "db6ddf283616c1490a83d56bd67949911d90b9bd782233d2913f857519dc43eb"
+    },
+    {
+      "path": "README.fr.md",
+      "size": 9787,
+      "sha256": "354a533c91ee2a5198d87444fffb17034e8ddcf98fa2e92f004bd0f02aad4af3"
+    },
+    {
+      "path": "README.hi.md",
+      "size": 17811,
+      "sha256": "588e71cef5a6dc13f0cad02b0714a82b1004a9b27c5a800bc10eca9bf92740f5"
+    },
+    {
+      "path": "README.ja.md",
+      "size": 10775,
+      "sha256": "7b37b91c5b48318fd6af8716860effc985ea26b6184f857b344efedc259da95a"
     },
     {
       "path": "README.md",
-      "size": 11125,
-      "sha256": "7e8f80140662cbb1aa494bc9661c275d0f1cac76897ddccf3615761af8d9ac52"
+      "size": 11468,
+      "sha256": "8cdb76cef916b196d19411ebfa29d02c3ac2846796cc3ce75e607713813b8f4b"
+    },
+    {
+      "path": "README.pt-BR.md",
+      "size": 8954,
+      "sha256": "40220535a0711d3441d194c29879f47bdf613276e1a13679fc01ce9b916ef2c6"
+    },
+    {
+      "path": "README.ru.md",
+      "size": 13650,
+      "sha256": "fa35e73eb098961e54dc48ba34d1343d8b897c0de1d9fe7bc191ddc5fd93affb"
+    },
+    {
+      "path": "README.th.md",
+      "size": 17397,
+      "sha256": "e6d1e99d6bc287737f03c4da03425efbc9bec8f1c9a9b08d86795eb3099d2b3f"
+    },
+    {
+      "path": "README.tr.md",
+      "size": 8936,
+      "sha256": "85a4ac9a9914a2c37a49e98548d70dd4b0721c24250bf7b343b27ff9245af06c"
+    },
+    {
+      "path": "README.uk.md",
+      "size": 13323,
+      "sha256": "5c13ead5f704ebde7bcc7179122dcb683632aa42aeb239f9c284efacb1c08f85"
+    },
+    {
+      "path": "README.vi.md",
+      "size": 10143,
+      "sha256": "8360ea1dd553cc72bea9d8d5d91805c7e293c3a57656d772ff5f0be6cf150b1f"
+    },
+    {
+      "path": "README.zh-TW.md",
+      "size": 7628,
+      "sha256": "f85f904e790a912a0d7446bfc0d11095b89e3b5f52174f457c33411a4ab4bff2"
     },
     {
       "path": "build/entitlements.mac.inherit.plist",

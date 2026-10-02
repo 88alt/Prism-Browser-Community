@@ -1,6 +1,8 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [English](README.en.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | **[English](README.en.md)** | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+
+[Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
 Author: [DFarm](https://x.com/DFarm_club)
 
@@ -26,7 +28,7 @@ The desktop interface supports **13 languages**: Simplified Chinese, Traditional
 - Switch instantly using the language selector in the upper-right corner. A manual choice is saved locally and takes precedence on subsequent launches.
 - Menus, common dialogs, forms, dates, and sorting follow the interface language. Translation catalogs are bundled; no online translation service is required.
 - Interface language is independent of profile fingerprint language and time zone. Switching preserves profile names, notes, tags, and unsaved edits.
-- The README is available in Chinese and English; the application supports all 13 interface languages above. See the [localization guide](docs/localization.md) to contribute translations.
+- The README is also available in all 13 languages above; use the links at the top of the page to switch. See the [localization guide](docs/localization.md) to contribute translations.
 
 ## Quick Download and Setup
 
