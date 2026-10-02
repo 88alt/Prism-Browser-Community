@@ -12,9 +12,21 @@ Browser profiles, cookies, proxy credentials, and browsing history remain on the
 
 ## Source Code Maintenance Notice
 
-This repository will remain publicly available for learning, review, and community builds. Starting with Prism Browser `v0.3.17`, product features, fixes, and later source-code changes will no longer be synchronized to this repository. As the desktop app, fingerprint kernels, cross-platform packaging, Pro features, and multiple release branches have grown, maintaining separate public and product code lines has created a substantial development and testing burden.
+This repository will remain publicly available for learning, review, and community builds. Starting with Prism Browser `v0.3.17`, product features, fixes, and later source-code changes will no longer be routinely synchronized to this repository. As the desktop app, fingerprint kernels, cross-platform packaging, Pro features, and multiple release branches have grown, maintaining separate public and product code lines has created a substantial development and testing burden.
+
+As a specific exception, this update ports the general localization support from 0.3.19 and translates the existing public interface. It does not include private Pro runtimes, licensing services, new Pro features, or private release configuration. This does not resume ongoing synchronization of product source code.
 
 The existing source code, commit history, and historical releases will remain available. For future features, fixes, and installers, please refer to the [official website](https://prismbrowser.app/) and this repository's [Releases](../../releases) page.
+
+## Interface Languages
+
+The desktop interface supports **13 languages**: Simplified Chinese, Traditional Chinese, English, Russian, Vietnamese, Thai, Brazilian Portuguese, French, Ukrainian, Spanish, Turkish, Japanese, and Hindi.
+
+- Startup matches the preferred system display language, with English as the fallback for unsupported or unavailable languages.
+- Switch instantly using the language selector in the upper-right corner. A manual choice is saved locally and takes precedence on subsequent launches.
+- Menus, common dialogs, forms, dates, and sorting follow the interface language. Translation catalogs are bundled; no online translation service is required.
+- Interface language is independent of profile fingerprint language and time zone. Switching preserves profile names, notes, tags, and unsaved edits.
+- The README is available in Chinese and English; the application supports all 13 interface languages above. See the [localization guide](docs/localization.md) to contribute translations.
 
 ## Quick Download and Setup
 
