@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | **[Українська](README.uk.md)** | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ npm run dist:win
 - macOS arm64: Xcode, Git, Python 3, Ninja і том APFS. Прийміть ліцензію Xcode; дивіться [посібник зі збирання](tools/macos-kernel/README.md).
 - Windows x64: Windows 10/11, Visual Studio з розробкою класичних застосунків на C++, Windows SDK, Git, Python 3 і том NTFS. Бажано чисте віртуальне середовище Python; дивіться [посібник](tools/windows-kernel/README.md).
 
-Версії, вихідні коміти, порядок патчів і SHA-256 записані в `tools/kernel-lock.json`, спільні патчі — у `tools/kernel-patches`. Повторно запустіть `Build-Kernel`, щоб продовжити перерване збирання. Результати знаходяться в `artifacts/<version>-<platform>` у каталозі збирання, журнали — у `logs`. Докладні команди також є в [англійському README](README.en.md).
+Версії, вихідні коміти, порядок патчів і SHA-256 записані в `tools/kernel-lock.json`, спільні патчі — у `tools/kernel-patches`. Повторно запустіть `Build-Kernel`, щоб продовжити перерване збирання. Результати знаходяться в `artifacts/<version>-<platform>` у каталозі збирання, журнали — у `logs`. Докладні команди також є в [англійському README](README.md).
 
 У менеджері рушіїв Prism імпортуйте локальну збірку: `Chromium.app` на macOS або каталог із `chrome.exe` на Windows. Перевірте рушій перед активацією; наявні дані та налаштування зберігаються.
 

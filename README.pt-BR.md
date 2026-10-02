@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | **[Português (Brasil)](README.pt-BR.md)**
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | **[Português (Brasil)](README.pt-BR.md)**
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ Esses comandos de empacotamento não incluem o motor de impressão digital. Para
 - macOS arm64: Xcode, Git, Python 3, Ninja e volume APFS. Aceite a licença do Xcode e siga o [guia de compilação](tools/macos-kernel/README.md).
 - Windows x64: Windows 10/11, Visual Studio com desenvolvimento para desktop em C++, Windows SDK, Git, Python 3 e volume NTFS. Recomenda-se um ambiente virtual Python limpo. Consulte o [guia de compilação](tools/windows-kernel/README.md).
 
-Versões fixadas, commits de origem, ordem dos patches e SHA-256 estão em `tools/kernel-lock.json`; patches compartilhados ficam em `tools/kernel-patches`. Execute `Build-Kernel` novamente para retomar uma compilação interrompida. Os resultados ficam em `artifacts/<version>-<platform>` dentro da raiz de compilação e os logs em `logs`. Os comandos detalhados também estão no [README em inglês](README.en.md).
+Versões fixadas, commits de origem, ordem dos patches e SHA-256 estão em `tools/kernel-lock.json`; patches compartilhados ficam em `tools/kernel-patches`. Execute `Build-Kernel` novamente para retomar uma compilação interrompida. Os resultados ficam em `artifacts/<version>-<platform>` dentro da raiz de compilação e os logs em `logs`. Os comandos detalhados também estão no [README em inglês](README.md).
 
 Na gestão de motores do Prism, importe a compilação local: `Chromium.app` no macOS ou o diretório com `chrome.exe` no Windows. Verifique o motor antes de ativá-lo; os dados e ajustes existentes são mantidos.
 

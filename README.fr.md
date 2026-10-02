@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 **[Français](README.fr.md)** | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ Ces commandes de création de paquets n’incluent pas le moteur d’empreintes.
 - macOS arm64 : Xcode, Git, Python 3, Ninja et un volume APFS. Acceptez la licence Xcode, puis suivez le [guide de compilation](tools/macos-kernel/README.md).
 - Windows x64 : Windows 10/11, Visual Studio avec développement Desktop en C++, Windows SDK, Git, Python 3 et un volume NTFS. Un environnement virtuel Python propre est conseillé. Consultez le [guide de compilation](tools/windows-kernel/README.md).
 
-Les versions figées, commits amont, ordre des correctifs et SHA-256 sont dans `tools/kernel-lock.json` ; les correctifs communs se trouvent dans `tools/kernel-patches`. Relancez `Build-Kernel` pour reprendre une compilation interrompue. Les résultats sont placés dans `artifacts/<version>-<platform>` sous la racine de compilation, et les journaux dans `logs`. Les commandes détaillées figurent aussi dans le [README anglais](README.en.md).
+Les versions figées, commits amont, ordre des correctifs et SHA-256 sont dans `tools/kernel-lock.json` ; les correctifs communs se trouvent dans `tools/kernel-patches`. Relancez `Build-Kernel` pour reprendre une compilation interrompue. Les résultats sont placés dans `artifacts/<version>-<platform>` sous la racine de compilation, et les journaux dans `logs`. Les commandes détaillées figurent aussi dans le [README anglais](README.md).
 
 Dans la gestion des moteurs de Prism, importez votre compilation : `Chromium.app` sur macOS, ou le répertoire contenant `chrome.exe` sur Windows. Vérifiez le moteur avant de l’activer ; les données et paramètres existants sont conservés.
 

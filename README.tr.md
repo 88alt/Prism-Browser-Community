@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | **[Türkçe](README.tr.md)** | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ Bu paketleme komutları parmak izi motorunu içermez. Chromium 144 derlemesi iç
 - macOS arm64: Xcode, Git, Python 3, Ninja ve APFS birimi. Xcode lisansını kabul edip [derleme kılavuzunu](tools/macos-kernel/README.md) izleyin.
 - Windows x64: Windows 10/11, C++ masaüstü geliştirme araçlarıyla Visual Studio, Windows SDK, Git, Python 3 ve NTFS birimi. Temiz bir Python sanal ortamı önerilir. [Derleme kılavuzuna](tools/windows-kernel/README.md) bakın.
 
-Sabitlenmiş sürümler, kaynak commit'leri, yama sırası ve SHA-256 değerleri `tools/kernel-lock.json` içindedir; ortak yamalar `tools/kernel-patches` dizinindedir. Kesilen derlemeyi sürdürmek için `Build-Kernel` komutunu yeniden çalıştırın. Çıktılar derleme kökündeki `artifacts/<version>-<platform>`, günlükler ise `logs` dizinine yazılır. Ayrıntılı komutlar [İngilizce README](README.en.md) içinde de bulunur.
+Sabitlenmiş sürümler, kaynak commit'leri, yama sırası ve SHA-256 değerleri `tools/kernel-lock.json` içindedir; ortak yamalar `tools/kernel-patches` dizinindedir. Kesilen derlemeyi sürdürmek için `Build-Kernel` komutunu yeniden çalıştırın. Çıktılar derleme kökündeki `artifacts/<version>-<platform>`, günlükler ise `logs` dizinine yazılır. Ayrıntılı komutlar [İngilizce README](README.md) içinde de bulunur.
 
 Prism'in motor yönetiminden yerel derlemeyi içe aktarın: macOS'ta `Chromium.app`, Windows'ta `chrome.exe` içeren dizin. Motoru doğruladıktan sonra etkinleştirin; mevcut veri ve ayarlar korunur.
 

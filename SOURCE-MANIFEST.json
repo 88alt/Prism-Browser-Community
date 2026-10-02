@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T08:08:36.379Z",
+  "generatedAt": "2026-10-02T08:18:52.454Z",
   "edition": "community-source",
   "files": [
     {
@@ -15,68 +15,73 @@
     },
     {
       "path": "README.en.md",
-      "size": 12987,
-      "sha256": "50c1c532160c495b89c4421a95d8f9340fd797ac3d5b0f9dda941bebc8427edc"
+      "size": 12990,
+      "sha256": "42bd74f53bb3ec441180ba3a6f560f6d585ef9caf341a67b667f4c3eb0f360f5"
     },
     {
       "path": "README.es.md",
       "size": 9228,
-      "sha256": "db6ddf283616c1490a83d56bd67949911d90b9bd782233d2913f857519dc43eb"
+      "sha256": "0bda6ae4adcb3a6874b18446a0661ec1deb610e90f1bfa42f2fcb2033783e31c"
     },
     {
       "path": "README.fr.md",
       "size": 9787,
-      "sha256": "354a533c91ee2a5198d87444fffb17034e8ddcf98fa2e92f004bd0f02aad4af3"
+      "sha256": "a6f2692bcf65478cf6826c72fcd04eb97c135242a403a3e0bc6a3a4e95275d97"
     },
     {
       "path": "README.hi.md",
       "size": 17811,
-      "sha256": "588e71cef5a6dc13f0cad02b0714a82b1004a9b27c5a800bc10eca9bf92740f5"
+      "sha256": "76f09cba30f0a59505f89d149c1cf47f7b18b6746f8a2db56d19ec186febc98e"
     },
     {
       "path": "README.ja.md",
       "size": 10775,
-      "sha256": "7b37b91c5b48318fd6af8716860effc985ea26b6184f857b344efedc259da95a"
+      "sha256": "b0289eb5bb968589bb4ba4fba5b6cf335933f75c124e7871d5679c1eff9e4a89"
     },
     {
       "path": "README.md",
-      "size": 11468,
-      "sha256": "8cdb76cef916b196d19411ebfa29d02c3ac2846796cc3ce75e607713813b8f4b"
+      "size": 12990,
+      "sha256": "42bd74f53bb3ec441180ba3a6f560f6d585ef9caf341a67b667f4c3eb0f360f5"
     },
     {
       "path": "README.pt-BR.md",
       "size": 8954,
-      "sha256": "40220535a0711d3441d194c29879f47bdf613276e1a13679fc01ce9b916ef2c6"
+      "sha256": "2164ca858e1ae15163361f542ff29a5132de937becdf97616568f4d134f40670"
     },
     {
       "path": "README.ru.md",
       "size": 13650,
-      "sha256": "fa35e73eb098961e54dc48ba34d1343d8b897c0de1d9fe7bc191ddc5fd93affb"
+      "sha256": "f766ea7bf43279d2e66beaa99b01f2082f4d249b07cd5c9f45d98e1a99a708ce"
     },
     {
       "path": "README.th.md",
       "size": 17397,
-      "sha256": "e6d1e99d6bc287737f03c4da03425efbc9bec8f1c9a9b08d86795eb3099d2b3f"
+      "sha256": "a53f00a621cc50a1cb037974b5a2a47e71c3b63099f8de8cbbec590850dd592c"
     },
     {
       "path": "README.tr.md",
       "size": 8936,
-      "sha256": "85a4ac9a9914a2c37a49e98548d70dd4b0721c24250bf7b343b27ff9245af06c"
+      "sha256": "c8bc90bab7502e254d518e4287faf923f54cbd08f00fca1318219b74d5c3749f"
     },
     {
       "path": "README.uk.md",
       "size": 13323,
-      "sha256": "5c13ead5f704ebde7bcc7179122dcb683632aa42aeb239f9c284efacb1c08f85"
+      "sha256": "1b935ed300c4bfb9622b2c4f67b9074c969df03b8fed660373d08f4e6955e31c"
     },
     {
       "path": "README.vi.md",
       "size": 10143,
-      "sha256": "8360ea1dd553cc72bea9d8d5d91805c7e293c3a57656d772ff5f0be6cf150b1f"
+      "sha256": "60bad4fd2fb8711845ffe6066b7f5d8fba70b3c2daa78d071eb0d6ca3c9044fa"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "size": 11471,
+      "sha256": "29f104ead8783b3063dcc38855204fa82215511d0b4d2d6044c65ceefabbe56c"
     },
     {
       "path": "README.zh-TW.md",
       "size": 7628,
-      "sha256": "f85f904e790a912a0d7446bfc0d11095b89e3b5f52174f457c33411a4ab4bff2"
+      "sha256": "9464bab6788b0530534cf8bb35a699b68312fea6a307f6d55a67ced4526fa5c4"
     },
     {
       "path": "build/entitlements.mac.inherit.plist",

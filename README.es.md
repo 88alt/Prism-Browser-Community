@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | **[Español](README.es.md)** | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ Estos comandos de empaquetado no incluyen el motor de huellas. Para compilar Chr
 - macOS arm64: Xcode, Git, Python 3, Ninja y un volumen APFS. Acepta la licencia de Xcode y sigue la [guía de compilación](tools/macos-kernel/README.md).
 - Windows x64: Windows 10/11, Visual Studio con desarrollo de escritorio en C++, Windows SDK, Git, Python 3 y un volumen NTFS. Se recomienda un entorno virtual limpio de Python. Consulta la [guía de compilación](tools/windows-kernel/README.md).
 
-`tools/kernel-lock.json` registra versiones fijadas, commits de origen, orden de parches y SHA-256; los parches compartidos están en `tools/kernel-patches`. Para continuar una compilación interrumpida, vuelve a ejecutar `Build-Kernel` para tu plataforma. Los resultados se guardan en `artifacts/<version>-<platform>` dentro del directorio de compilación, y los registros en `logs`. Los comandos detallados también están en el [README en inglés](README.en.md).
+`tools/kernel-lock.json` registra versiones fijadas, commits de origen, orden de parches y SHA-256; los parches compartidos están en `tools/kernel-patches`. Para continuar una compilación interrumpida, vuelve a ejecutar `Build-Kernel` para tu plataforma. Los resultados se guardan en `artifacts/<version>-<platform>` dentro del directorio de compilación, y los registros en `logs`. Los comandos detallados también están en el [README en inglés](README.md).
 
 En la gestión de motores de Prism, importa la compilación local: selecciona `Chromium.app` en macOS o el directorio que contiene `chrome.exe` en Windows. Verifica el motor antes de activarlo; se conservan los datos y ajustes existentes.
 

@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | **[हिन्दी](README.hi.md)**
 
@@ -89,7 +89,7 @@ npm run dist:win
 - macOS arm64: Xcode, Git, Python 3, Ninja और APFS वॉल्यूम चाहिए। Xcode लाइसेंस स्वीकार करें और [बिल्ड मार्गदर्शिका](tools/macos-kernel/README.md) देखें।
 - Windows x64: Windows 10/11, C++ डेस्कटॉप डेवलपमेंट सहित Visual Studio, Windows SDK, Git, Python 3 और NTFS वॉल्यूम चाहिए। साफ़ Python वर्चुअल एनवायरनमेंट सुझाया जाता है। [बिल्ड मार्गदर्शिका](tools/windows-kernel/README.md) देखें।
 
-निश्चित संस्करण, मूल कमिट, पैच का क्रम और SHA-256 `tools/kernel-lock.json` में हैं; साझा पैच `tools/kernel-patches` में हैं। रुके हुए बिल्ड को जारी रखने के लिए `Build-Kernel` फिर चलाएँ। आउटपुट बिल्ड रूट के `artifacts/<version>-<platform>` में और लॉग `logs` में मिलते हैं। विस्तृत कमांड [अंग्रेज़ी README](README.en.md) में भी हैं।
+निश्चित संस्करण, मूल कमिट, पैच का क्रम और SHA-256 `tools/kernel-lock.json` में हैं; साझा पैच `tools/kernel-patches` में हैं। रुके हुए बिल्ड को जारी रखने के लिए `Build-Kernel` फिर चलाएँ। आउटपुट बिल्ड रूट के `artifacts/<version>-<platform>` में और लॉग `logs` में मिलते हैं। विस्तृत कमांड [अंग्रेज़ी README](README.md) में भी हैं।
 
 Prism के इंजन प्रबंधन से स्थानीय बिल्ड आयात करें: macOS में `Chromium.app`, Windows में `chrome.exe` वाली डायरेक्टरी चुनें। इंजन सक्रिय करने से पहले जाँचें। मौजूदा प्रोफ़ाइल का डेटा और सेटिंग बने रहते हैं।
 

@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | **[繁體中文](README.zh-TW.md)** | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | **[繁體中文](README.zh-TW.md)** | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ npm run dist:win
 - macOS arm64：需要 Xcode、Git、Python 3、Ninja 與 APFS 磁碟。請先接受 Xcode 授權；參閱[建置指南](tools/macos-kernel/README.md)。
 - Windows x64：需要 Windows 10／11、Visual Studio 的 C++ 桌面開發工具、Windows SDK、Git、Python 3 與 NTFS 磁碟。建議使用乾淨的 Python 虛擬環境；參閱[建置指南](tools/windows-kernel/README.md)。
 
-固定版本、上游提交、修補順序及 SHA-256 位於 `tools/kernel-lock.json`，共用修補位於 `tools/kernel-patches`。建置中斷後可重新執行平台的 `Build-Kernel` 指令繼續；產物位於建置根目錄下的 `artifacts/<version>-<platform>`，紀錄位於 `logs`。完整命令另見 [English README](README.en.md)。
+固定版本、上游提交、修補順序及 SHA-256 位於 `tools/kernel-lock.json`，共用修補位於 `tools/kernel-patches`。建置中斷後可重新執行平台的 `Build-Kernel` 指令繼續；產物位於建置根目錄下的 `artifacts/<version>-<platform>`，紀錄位於 `logs`。完整命令另見 [English README](README.md)。
 
 在應用程式的瀏覽器核心管理頁選擇匯入本機建置：macOS 選取 `Chromium.app`，Windows 選取包含 `chrome.exe` 的目錄。匯入後先檢查，再啟用該核心；既有環境的資料與設定會保留。
 

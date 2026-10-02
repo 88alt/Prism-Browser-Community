@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | **[Tiếng Việt](README.vi.md)** | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | **[Tiếng Việt](README.vi.md)** | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ Các lệnh đóng gói này không kèm bộ máy dấu vân tay. Để biên d
 - macOS arm64: Xcode, Git, Python 3, Ninja và ổ APFS. Chấp nhận giấy phép Xcode rồi xem [hướng dẫn biên dịch](tools/macos-kernel/README.md).
 - Windows x64: Windows 10/11, Visual Studio với phát triển ứng dụng desktop bằng C++, Windows SDK, Git, Python 3 và ổ NTFS. Nên dùng môi trường ảo Python sạch. Xem [hướng dẫn biên dịch](tools/windows-kernel/README.md).
 
-Phiên bản cố định, commit nguồn, thứ tự bản vá và SHA-256 nằm trong `tools/kernel-lock.json`; bản vá chung ở `tools/kernel-patches`. Chạy lại `Build-Kernel` để tiếp tục sau khi bị gián đoạn. Kết quả nằm trong `artifacts/<version>-<platform>` dưới thư mục biên dịch; nhật ký ở `logs`. Lệnh chi tiết cũng có trong [README tiếng Anh](README.en.md).
+Phiên bản cố định, commit nguồn, thứ tự bản vá và SHA-256 nằm trong `tools/kernel-lock.json`; bản vá chung ở `tools/kernel-patches`. Chạy lại `Build-Kernel` để tiếp tục sau khi bị gián đoạn. Kết quả nằm trong `artifacts/<version>-<platform>` dưới thư mục biên dịch; nhật ký ở `logs`. Lệnh chi tiết cũng có trong [README tiếng Anh](README.md).
 
 Trong trang quản lý bộ máy của Prism, nhập bản biên dịch cục bộ: chọn `Chromium.app` trên macOS hoặc thư mục chứa `chrome.exe` trên Windows. Kiểm tra trước khi kích hoạt; dữ liệu và cài đặt hiện có được giữ lại.
 

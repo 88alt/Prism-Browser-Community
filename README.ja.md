@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | [ไทย](README.th.md) | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | **[日本語](README.ja.md)** | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ npm run dist:win
 - macOS arm64：Xcode、Git、Python 3、Ninja、APFS ボリュームが必要です。Xcode のライセンスに同意し、[ビルドガイド](tools/macos-kernel/README.md)をご確認ください。
 - Windows x64：Windows 10／11、Visual Studio の C++ デスクトップ開発環境、Windows SDK、Git、Python 3、NTFS ボリュームが必要です。クリーンな Python 仮想環境を推奨します。[ビルドガイド](tools/windows-kernel/README.md)をご確認ください。
 
-固定バージョン、上流コミット、パッチ順序、SHA-256 は `tools/kernel-lock.json`、共通パッチは `tools/kernel-patches` にあります。中断したビルドは `Build-Kernel` を再実行して継続できます。成果物はビルドルートの `artifacts/<version>-<platform>`、ログは `logs` に出力されます。詳細なコマンドは [英語 README](README.en.md) にも記載しています。
+固定バージョン、上流コミット、パッチ順序、SHA-256 は `tools/kernel-lock.json`、共通パッチは `tools/kernel-patches` にあります。中断したビルドは `Build-Kernel` を再実行して継続できます。成果物はビルドルートの `artifacts/<version>-<platform>`、ログは `logs` に出力されます。詳細なコマンドは [英語 README](README.md) にも記載しています。
 
 アプリのエンジン管理からローカルビルドをインポートします。macOS は `Chromium.app`、Windows は `chrome.exe` を含むディレクトリを選択してください。検証後に有効化します。既存プロファイルのデータと設定は保持されます。
 

@@ -1,6 +1,6 @@
 # Prism Browser Community
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | **[ไทย](README.th.md)** | [Português (Brasil)](README.pt-BR.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [Русский](README.ru.md) | [Tiếng Việt](README.vi.md) | **[ไทย](README.th.md)** | [Português (Brasil)](README.pt-BR.md)
 
 [Français](README.fr.md) | [Українська](README.uk.md) | [Español](README.es.md) | [Türkçe](README.tr.md) | [日本語](README.ja.md) | [हिन्दी](README.hi.md)
 
@@ -89,7 +89,7 @@ npm run dist:win
 - macOS arm64: ต้องมี Xcode, Git, Python 3, Ninja และโวลุ่ม APFS ยอมรับสิทธิ์การใช้งาน Xcode แล้วดู[คู่มือบิลด์](tools/macos-kernel/README.md)
 - Windows x64: ต้องมี Windows 10/11, Visual Studio พร้อมเครื่องมือพัฒนาเดสก์ท็อป C++, Windows SDK, Git, Python 3 และโวลุ่ม NTFS แนะนำสภาพแวดล้อมเสมือน Python ที่สะอาด ดู[คู่มือบิลด์](tools/windows-kernel/README.md)
 
-เวอร์ชันที่ตรึงไว้ คอมมิตต้นทาง ลำดับแพตช์ และ SHA-256 อยู่ใน `tools/kernel-lock.json` แพตช์ร่วมอยู่ใน `tools/kernel-patches` หากบิลด์หยุดกลางทาง ให้รัน `Build-Kernel` อีกครั้งเพื่อทำต่อ ผลลัพธ์อยู่ใน `artifacts/<version>-<platform>` ใต้โฟลเดอร์บิลด์ และบันทึกอยู่ใน `logs` ดูคำสั่งละเอียดเพิ่มเติมใน [README ภาษาอังกฤษ](README.en.md)
+เวอร์ชันที่ตรึงไว้ คอมมิตต้นทาง ลำดับแพตช์ และ SHA-256 อยู่ใน `tools/kernel-lock.json` แพตช์ร่วมอยู่ใน `tools/kernel-patches` หากบิลด์หยุดกลางทาง ให้รัน `Build-Kernel` อีกครั้งเพื่อทำต่อ ผลลัพธ์อยู่ใน `artifacts/<version>-<platform>` ใต้โฟลเดอร์บิลด์ และบันทึกอยู่ใน `logs` ดูคำสั่งละเอียดเพิ่มเติมใน [README ภาษาอังกฤษ](README.md)
 
 นำเข้าบิลด์ในหน้าจัดการเอนจินของ Prism: macOS เลือก `Chromium.app` ส่วน Windows เลือกโฟลเดอร์ที่มี `chrome.exe` ตรวจสอบก่อนเปิดใช้งานเอนจิน ข้อมูลและการตั้งค่าโปรไฟล์เดิมจะยังอยู่
 
